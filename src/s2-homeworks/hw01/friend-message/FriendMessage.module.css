@@ -1,16 +1,31 @@
 .friendMessage {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin: 20px;
 }
 
 .friendImageAndText {
-
+    display: flex;
+    align-items: flex-end;
 }
 
 .friendImageAndText img {
-
+    width: 48px;
+    height: 48px;
 }
 
 .friendText {
+    display: flex;
+    flex-direction: column;
+    background-color: #F5F7FB;
+    min-width: 150px;
+    max-width: 527px;
+    border-radius: 5px 5px 0 5px;
+    margin-left: 10px;
+    padding: 20px;
+    color: #000000;
+    font-size: 16px;
 
 }
 
@@ -19,13 +34,14 @@
 }
 
 .friendName {
-
+    font-size: 18px;
 }
 
 .friendMessageText {
-
+    white-space: pre-wrap;
 }
 
 .friendTime {
-
+    font-size: 10px;
+    margin-left: 10px;
 }
