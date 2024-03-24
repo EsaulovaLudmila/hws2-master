@@ -16,17 +16,17 @@ const Message = (props: MessagePropsType) => {
             <div className={s.imageAndText}>
                 <img
                     id={'hw1-avatar-' + props.message.id}
-                    src={message0.user.avatar} // создаёт студент //
+                    src={message0.user.avatar}
                 />
-                <div className={s.triangle}></div>
+                <div className={s.triangleRight}></div>
                 <div className={s.text}>
                     <div id={'hw1-name-' + props.message.id} className={s.name}>
-                        {message0.user.name} // создаёт студент //
+                        {message0.user.name}
 
                         {/**/}
                     </div>
                     <pre id={'hw1-text-' + props.message.id} className={s.messageText}>
-                        {message0.message.text} // создаёт студент //
+                        {message0.message.text}
 
                         {/**/}
                     </pre>

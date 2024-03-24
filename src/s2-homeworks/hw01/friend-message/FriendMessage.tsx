@@ -15,12 +15,13 @@ const FriendMessage = (props: MessagePropsType) => {
                     id={'hw1-friend-avatar-' + props.message.id}
                     src={friendMessage0.user.avatar} // создаёт студент //
                 />
+                <div className={s.triangleLeft}></div>
                 <div className={s.friendText}>
                     <div
                         id={'hw1-friend-name-' + props.message.id}
                         className={s.friendName}
                     >
-                        {friendMessage0.user.name} // создаёт студент //
+                        {friendMessage0.user.name}
 
                         {/**/}
                     </div>
@@ -28,7 +29,7 @@ const FriendMessage = (props: MessagePropsType) => {
                         id={'hw1-friend-text-' + props.message.id}
                         className={s.friendMessageText}
                     >
-                        {friendMessage0.message.text} // создаёт студент //
+                        {friendMessage0.message.text}
 
                         {/**/}
                     </pre>
@@ -38,7 +39,7 @@ const FriendMessage = (props: MessagePropsType) => {
                 id={'hw1-friend-time-' + props.message.id}
                 className={s.friendTime}
             >
-                {friendMessage0.message.time} // создаёт студент //
+                {friendMessage0.message.time}
 
                 {/**/}
             </div>
